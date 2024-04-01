@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1v1Pokemon</title>
+  <link rel="stylesheet" href="cbuss.css">
+</head>
+<body>
+  <div class="game">
+    <div class="opponent">
+      <div class="stats">
+        <div class="top">
+          <div id="opponentHP" class="hp-count">100</div>
+        </div>
+        <span class="name">
+          Pikachu
+        </span>
+        <span class="level">
+          76
+        </span>
+      </div>
+      <img class="pokemon" src="https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif" alt="A sprite of Pikachu">
+    </div>
+    <div class="player">
+      <div class="stats">
+        <div class="top">
+          <div id="playerHP" class="hp-count">100</div>
+        </div>
+        <span class="name">
+          Eevee
+        </span>
+        <span class="level">
+          91
+        </span>
+      </div>
+      <img class="pokemon" src="https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif" alt="A sprite of Eevee">
+    </div>
+  </div>
+  <div class="box">
+    <div id="message" class="message">
+      Choose a move to do
+    </div>
+    <div class="actions">
+      <button onclick="quickAttack()">Quick Attack</button>
+      <button onclick="thunderShock()">Thunder Shock</button>
+      <button onclick="swift()">Swift</button>
+      <button onclick="tackle()">Tackle</button>
+    </div>
+  </div>
+
+  <script src="mode.js"></script>
+</body>
+</html>
